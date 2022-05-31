@@ -1,23 +1,8 @@
 # Portfolio
 
-### This is personal Portfolio website. Visit [Portfolio](https://portfolio-2-blond.vercel.app/)
+### This is personal Portfolio website. Visit [Portfolio](https://preeminent-pithivier-6ea4ca.netlify.app//)
 
-## Build with using
-### `React `
-
-## To run this project in the local machine run the following commands:
-```
-
-```
-```
-cd Portfolio
-```
-```
-npm install
-```
-``` 
-npm start
-```
+![](/src/assets/756ca789-283d-4380-8e46-d668fe7f23d5.jpg)
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

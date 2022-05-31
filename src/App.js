@@ -26,7 +26,8 @@ function App() {
 					className='logoStart'
 				>
 					<img
-						src='https://github.com/RahulGoyal03/Portfolio/blob/main/src/assets/logorahul.png?raw=true'
+					className='ts_logo'
+						src='https://imgs.search.brave.com/VMbjG9FlBcL5oya-SqUeee7IuBbfyJR_GgsUvXAUO-o/rs:fit:640:640:1/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/dGVtcGxhdGUvMjAx/OTA3MTYvb3VybGFy/Z2UvcG5ndHJlZS1s/ZXR0ZXItdHMtaW5p/dGlhbHMtY2lyY2xl/LWxvZ28tdmVjdG9y/LXRlbXBsYXRlLXIt/aW1hZ2VfMjI4MjMw/LmpwZw?raw=true'
 						alt='logo'
 					/>
 				</div>

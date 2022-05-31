@@ -91,7 +91,7 @@ const TechStacks = () => {
 					/>
 					<span>Node</span>
 				</div>
-				<div
+				{/* <div
 					style={{
 						color: `${newTheme.title}`,
 						background: `${newTheme.linkHover}`,
@@ -100,7 +100,7 @@ const TechStacks = () => {
 				>
 					<i className='devicon-express-original' />
 					<span>Express</span>
-				</div>
+				</div> */}
 				<div
 					style={{
 						color: `${newTheme.title}`,

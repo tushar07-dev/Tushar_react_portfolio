@@ -5,7 +5,7 @@ import SideIcons from "../SideIcons/SideIcons";
 import TechStacks from "../TechStacks/TechStacks";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../../assets/my_photo.jpg"
+import img1 from "../../assets/my_photo.jpeg"
 import { Button } from "../Button/Button";
 import About from "../About/About";
 import { projects } from "../../Utils/Projects";
@@ -76,7 +76,7 @@ const Home = ({ scrollRef }) => {
           <h1>I am a Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/1islZ3H0jW0po2s-WCnb9et5uwejATH9j/view?usp=sharing"
+              href="https://drive.google.com/file/d/16dzSfpp5BcCo-zRt8rTvSFYxQLsL79Fw/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
-
+// import WindowSize from "../../Utils/WindowSize";
 import styles from "./About.module.css";
 
 
@@ -27,9 +27,9 @@ const About = () => {
         </h1>
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
-          Hello! My name is Rohan Gaikwad and I enjoy creating things that live on
-          the internet. My interest in web development started back last year
-          when I was trying to edit things on the web — taught me a lot about
+        Hello! My name is Tushar Shelke and I enjoy creating things that live on
+          the internet. My interest in web development started when i joined Masai School to learn full stack
+          web-Development — taught me a lot about
           HTML & CSS!. <br />
           <br /> Fast Forwarding to today, I built a number of web applications
           and  major projects. Learned a great deal about teamwork, leadership,

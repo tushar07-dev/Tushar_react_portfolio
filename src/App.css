@@ -9,6 +9,10 @@
 	width: 100px;
 	animation: revolve 0.8s infinite;
 }
+.ts_logo{
+	border-radius: 100%;
+	padding: -50%;
+}
 
 
 @keyframes revolve {
