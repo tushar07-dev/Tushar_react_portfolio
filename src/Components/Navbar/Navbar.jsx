@@ -54,7 +54,8 @@ const Navbar = () => {
 			}}
 		>
 			<div className={styles.navbar}>
-				<a href='https://preeminent-pithivier-6ea4ca.netlify.app/'>
+			
+			<a  href='https://tushar-portfolio07.netlify.app/'>
 					<div className={styles.logo}>
 						<img
 							src='https://imgs.search.brave.com/VMbjG9FlBcL5oya-SqUeee7IuBbfyJR_GgsUvXAUO-o/rs:fit:640:640:1/g:ce/aHR0cHM6Ly9wbmcu/cG5ndHJlZS5jb20v/dGVtcGxhdGUvMjAx/OTA3MTYvb3VybGFy/Z2UvcG5ndHJlZS1s/ZXR0ZXItdHMtaW5p/dGlhbHMtY2lyY2xl/LWxvZ28tdmVjdG9y/LXRlbXBsYXRlLXIt/aW1hZ2VfMjI4MjMw/LmpwZw?raw=true'
@@ -62,6 +63,7 @@ const Navbar = () => {
 						/>
 					</div>
 				</a>
+				
 
 				<div
 					style={{ color: `${newTheme.title}` }}
