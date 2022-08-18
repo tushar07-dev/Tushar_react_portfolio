@@ -1,5 +1,14 @@
 export const projects = [
   {
+    img: "https://raw.githubusercontent.com/bobangajicsm/react-portfolio-website/29236e21f50df72519345571f0abfe1f4da8ec8d/Screenshot%20(564).png",
+    title: "Calendry-Clone",
+    des: "This is the clone of Calendry website. A web application to schedule meeting for bussiness and personal use.",
+    demo: "https://github.com/ellite07/adorable-crown-8253",
+    live: "https://calendly-react-clone.netlify.app/",
+    gitHub: "https://github.com/ellite07/adorable-crown-8253",
+    technologies: ["HTML", "CSS","REACT", "JavaScript","NodeJS"],
+  },
+  {
     img: "https://raw.githubusercontent.com/ellite07/Fitmeals/main/img.jpeg",
     title: "Fitmeals-Clone",
     des: "This is the clone of Fitmeals website. A web application to buy Healthy food and diet plan. This is our team collaboration project at Full Stack-development bootcamp in Masai School.",
