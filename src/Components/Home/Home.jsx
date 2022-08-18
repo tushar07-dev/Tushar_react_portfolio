@@ -76,7 +76,7 @@ const Home = ({ scrollRef }) => {
           <h1>I am a Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="https://drive.google.com/file/d/16dzSfpp5BcCo-zRt8rTvSFYxQLsL79Fw/view?usp=sharing"
+              href="https://drive.google.com/file/d/1d6Lj8hjiSdBslj81odgwvvtviPa8Qt02/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
