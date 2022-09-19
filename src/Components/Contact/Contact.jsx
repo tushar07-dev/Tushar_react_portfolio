@@ -12,8 +12,7 @@ const Contact = () => {
       <div className={styles.container}>
         <h1 style={{ color: `${newTheme.title}` }}>Get in Touch</h1>
         <p style={{ color: `${newTheme.para}` }} className={styles.paragraph}>
-          I'm actively looking for any new opportunities, in full-stack web
-          development.
+        I'm actively searching for any new full-stack web developer opportunities.
         </p>
     
           <p style={{ color: `#00a0a0`, lineHeight: ``,fontSize:`20px` }}>
@@ -41,7 +40,7 @@ const Contact = () => {
             <i className="fas fa-phone-alt" />
           </a>
           <a
-            href="mailto: shelketushar100@gmail.com"
+            href="https://mail.google.com/mail/u/0/?tab=mm#inbox"
             aria-label="email"
             target="_blank"
             rel="noreferrer"
@@ -57,7 +56,7 @@ const Contact = () => {
             <i className="fab fa-twitter"></i>
           </a>
           <a
-            href="https://github.com/ellite07"
+            href="https://github.com/tushar07-dev"
             aria-label="GitHub"
             rel="noreferrer"
             target="_blank"

@@ -37,7 +37,7 @@ const SideIcons = () => {
 					</li>
 					<li>
 						<a
-							href='https://github.com/ellite07'
+							href='https://github.com/tushar07-dev'
 							aria-label='GitHub'
 							rel='noreferrer'
 							target='_blank'
