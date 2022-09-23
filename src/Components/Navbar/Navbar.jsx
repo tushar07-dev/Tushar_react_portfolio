@@ -25,6 +25,7 @@ const circle = {
 const cresent = {
 	transform: 'scale(1)',
 };
+
 const Navbar = () => {
 	const [preScrollPos, setPreScrollPos] = useState(
 		window.pageYOffset,
@@ -39,7 +40,7 @@ const Navbar = () => {
 		if (preScrollPos > currentScrollPos) {
 			navRef.current.style.top = '0';
 		} else {
-			navRef.current.style.top = '-80px';
+			navRef.current.style.top = '0';
 		}
 		setPreScrollPos(currentScrollPos);
 	};
@@ -49,6 +50,7 @@ const Navbar = () => {
 			ref={navRef}
 			className={styles.navContainer}
 			style={{
+				
 				background: `${newTheme.background}`,
 				boxShadow: `3px 3px 10px ${newTheme.line}`,
 			}}
@@ -71,7 +73,6 @@ const Navbar = () => {
 					<a  href='#about'>About</a>
 					<a href='#techStacks'>Tech stack</a>
 					<a href='#projects'>Projects</a>
-
 					<a href='#contact'>Contact</a>
 				</div>
 				<button

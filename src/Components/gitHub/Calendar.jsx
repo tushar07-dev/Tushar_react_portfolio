@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 
 export const Calendar = () => {
   return (
-        <Row style={{ justifyContent: "center", paddingBottom: "10px",color:"wheat"  }}>
+        <Row style={{ justifyContent: "center", padding: "0% 5%",color:"wheat"  }}>
       
       <GitHubCalendar
       className="project-heading"
