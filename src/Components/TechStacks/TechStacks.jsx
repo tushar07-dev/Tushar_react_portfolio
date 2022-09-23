@@ -15,7 +15,7 @@ const TechStacks = () => {
 				style={{ color: `${newTheme.title}` }}
 				className={styles.heading}
 			>
-				Proficiencies
+				Tech stack
 			</h1>
 			<div className={styles.borderBottom} />
 			{/* <h2

@@ -13,7 +13,9 @@ import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 // import Experiences from '../Experiences/Experiences';
 
-
+import {Calendar} from "../gitHub/Calendar";
+import GitHubCalendar from "react-github-calendar";
+import { Row } from "react-bootstrap";
 
 const Home = ({ scrollRef }) => {
   const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
@@ -121,8 +123,16 @@ const Home = ({ scrollRef }) => {
         <TechStacks />
       </div>
 
+      <div id="projects" className={styles.projects}> 
+        <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
+          Days I Code
+        </h1>
+        <div className={styles.borderBottom} />
+        <Calendar/>
+      </div>
+
       {/* project section from here => */}
-      <div id="projects" className={styles.projects}>
+      <div id="projects" className={styles.projects}> 
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           Few Things I've Build
         </h1>
