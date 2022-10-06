@@ -78,7 +78,7 @@ const Home = ({ scrollRef }) => {
           <h1>I am a Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="/resume/Tushar_latest_resume.pdf"
+              href="/resume/Tushar_Resume_01.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"
