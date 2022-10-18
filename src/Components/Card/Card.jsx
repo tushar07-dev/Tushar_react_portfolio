@@ -25,33 +25,33 @@ const Card = (props) => {
 			data-aos-easing='ease-in-sine'
 			data-aos-duration='700'
 			className={styles.card}
-			style={{
+			style={{	
 				boxShadow: `3px 3px 5px ${newTheme.line}`,
 				backgroundColor: `${newTheme.highlightBackground}`,
 			}}
 		>
-			<div className={styles.image}>
+			<div className={styles.image} >
 				<img src={img} alt='project' />
 				<div className={styles.colorDiv} />
 			</div>
 
-			<div className={styles.card__Container}>
+			<div className={styles.card__Container} style={{ marginBottom:'100px', display: 'flex', flexDirection: 'column',  }}>
 				<div
 					className={styles.titleContainer}
-					style={
-						width <= 1000
-							? { background: `${newTheme.card}` }
-							: { background: 'none' }
-					}
+				// style={
+				// 	width <= 1000
+				// 		? { background: `${newTheme.card}` }
+				// 		: { background: 'none' }
+				// }
 				>
 					<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
-					{width <= 840 && (
-						<Button
-							text='Read More'
-							handleButton={handleButton}
-							padding='10px 20px'
-						/>
-					)}
+					{/* {width <= 800 && (
+							<Button
+								text='Read More'
+								handleButton={handleButton}
+								padding='10px 20px'
+							/>
+						)} */}
 					<p style={{ color: `${newTheme.para}` }}>{des}</p>
 					<div>
 						{technologies.map((technology, index) => (
@@ -66,90 +66,94 @@ const Card = (props) => {
 							</span>
 						))}
 					</div>
-				</div>
 
-				<Dialog
-					aria-labelledby='alert-dialog-title'
-					aria-describedby='alert-dialog-description'
-					open={state}
-					onClose={handleClose}
-				>
-					<div
-						style={{
-							backgroundColor: `${newTheme.highlightBackground}`,
-							padding: '20px',
-						}}
+
+					<Dialog
+						aria-labelledby='alert-dialog-title'
+						aria-describedby='alert-dialog-description'
+						open={state}
+						onClose={handleClose}
 					>
-						<div className={styles.image}>
-							<img src={img} alt='project' />
-						</div>
-						<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
-						<p style={{ color: `${newTheme.para}` }}>{des}</p>
-						<div className={styles.popupTech}>
-							{technologies.map((technology, index) => (
-								<div
-									key={index}
-									style={{
-										marginRight: '20px',
-										color: `${newTheme.title}`,
-									}}
-								>
-									{technology}
-									{index !== technologies.length - 1 ? ',' : '.'}
-								</div>
-							))}
-						</div>
 						<div
 							style={{
-								backgroundColor: `${newTheme.line}`,
-								height: '1px',
+								backgroundColor: `${newTheme.highlightBackground}`,
+								padding: '20px',
 							}}
-						/>
-						<br />
-						<div className={styles.dialogElements}>
+						>
+							<div className={styles.image}>
+								<img src={img} alt='project' />
+							</div>
+							<h2 style={{ color: `${newTheme.title}` }}>{title}</h2>
+							<p style={{ color: `${newTheme.para}` }}>{des}</p>
+							<div className={styles.popupTech}>
+								{technologies.map((technology, index) => (
+									<div
+										key={index}
+										style={{
+											marginRight: '20px',
+											color: `${newTheme.title}`,
+										}}
+									>
+										{technology}
+										{index !== technologies.length - 1 ? ',' : '.'}
+									</div>
+								))}
+							</div>
 							<div
 								style={{
-									color: `${newTheme.title}`,
+									backgroundColor: `${newTheme.line}`,
+									height: '1px',
 								}}
-								className={styles.actionBtns}
-							>
-								<a
-									href={gitHub}
-									rel='noopener noreferrer'
-									target='_blank'
-								>
-									<i className='fab fa-github' />
-								</a>
-								<a
-									href={live}
-									rel='noopener noreferrer'
-									target='_blank'
-								>
-									<i className='fas fa-external-link-alt' />
-								</a>
-							</div>
-							<Button
-								text='close'
-								handleButton={handleClose}
-								padding='10px 20px'
 							/>
+							<br />
+							<div className={styles.dialogElements}>
+								<div
+									style={{
+										color: `${newTheme.title}`,
+									}}
+									className={styles.actionBtns}
+								>
+									<a
+										href={gitHub}
+										rel='noopener noreferrer'
+										target='_blank'
+									>
+										<i className='fab fa-github' />
+									</a>
+									<a
+										href={live}
+										rel='noopener noreferrer'
+										target='_blank'
+									>
+										<i className='fas fa-external-link-alt' />
+									</a>
+								</div>
+								<Button
+									text='close'
+									handleButton={handleClose}
+									padding='10px 20px'
+								/>
+							</div>
 						</div>
+					</Dialog>
+					{/* -----------------For hovering container--------------- */}
+					<div
+						style={{
+							color: `${newTheme.para}`,
+							background: `${newTheme.linkHover}`,
+							marginTop: '10px'
+
+						}}
+						className={styles.description}
+
+					>
+						<a href={gitHub} rel='noopener noreferrer' target='_blank'>
+							<i className='fab fa-github' />
+						</a>
+						<a href={live} rel='noopener noreferrer' target='_blank'>
+							<i className='fas fa-external-link-alt' />
+						</a>
 					</div>
-				</Dialog>
-				{/* -----------------For hovering container--------------- */}
-				<div
-					style={{
-						color: `${newTheme.para}`,
-						background: `${newTheme.linkHover}`,
-					}}
-					className={styles.description}
-				>
-					<a href={gitHub} rel='noopener noreferrer' target='_blank'>
-						<i className='fab fa-github' />
-					</a>
-					<a href={live} rel='noopener noreferrer' target='_blank'>
-						<i className='fas fa-external-link-alt' />
-					</a>
 				</div>
 			</div>
 		</div>

@@ -31,16 +31,17 @@
 .colorDiv {
 	width: 100%;
 	height: 300px;
-	background: #37687c;
+	background: white;
 	position: absolute;
 	z-index: 10;
 	top: 0;
-	opacity: 0.6;
+	opacity: 0.1;
 	border-radius: 10px 0 0 10px;
 	transition: 0.5s;
 }
 .image:hover .colorDiv {
-	opacity: 0;
+	background: #37687c56;
+	opacity: 0.5;
 }
 
 .card .card__Container .description {
@@ -50,21 +51,22 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position: absolute;
-	z-index: 16;
-	right: 85%;
-	top: -30%;
-	opacity: 0;
-	transform: translateX(0);
-	transition: 0.5s;
+	/* position: absolute; */
+	/* z-index: 16; */
+	/* right: 85%; */
+	/* top: -30%; */
+	opacity: 90;
+	/* transform: translateX(0); */
+	/* transition: 0.5s; */
 }
 
+
 .card:hover .card__Container .description {
-	width: 40%;
-	opacity: 1;
-	top: 80%;
-	right: 80%;
-	backdrop-filter: blur(20px);
+	/* width: 40%; */
+	/* opacity: 80; */
+	/* top: 80%; */
+	/* right: 80%; */
+	/* backdrop-filter: blur(20px); */
 }
 
 .titleContainer {
@@ -84,6 +86,17 @@
 }
 .actionBtns a:last-child {
 	margin-left: 20px;
+}
+
+/* MY Changes */
+
+.description{
+	display: flex;
+	width: 100px;
+	height: 15px;
+	/* border-top: 1px solid red; */
+	justify-content:space-between;
+	margin-left: 30%;
 }
 @media screen and (max-width: 1370px) {
 	.card {
@@ -105,23 +118,24 @@
 	}
 	.image img,
 	.colorDiv {
-		height: 250px;
-		width: 120%;
+		height: 350px;
+		width: 100%;
 	}
 	.colorDiv {
-		display: none;
+		/* background-color:green; */
+		opacity: 0.2;
 	}
 	.titleContainer {
-		height: 230px;
+		/* height: 230px; */
 		opacity: 0.8;
-		padding: 10px;
-		position: absolute;
-		bottom: 25px;
-		width: 130%;
-		right: 0;
-		margin-top: -20px;
-		z-index: 15;
-		border-radius: 10px;
+		/* padding: 10px; */
+		/* position: absolute; */
+		/* bottom: 25px; */
+		/* width: 130%; */
+		/* right: 0; */
+		/* margin-top: -20px; */
+		/* z-index: 15; */
+		/* border-radius: 10px; */
 		text-align: justify;
 		display: flex;
 		flex-direction: column;
@@ -137,9 +151,7 @@
 		/* background: chocolate; */
 	}
 	.titleContainer div {
-		width: 90%;
-		display: flex;
-		flex-wrap: wrap;
+		width: 100%;
 		/* word-break: break-all; */
 	}
 	.card .card__Container .description {
@@ -148,9 +160,9 @@
 		background: none;
 		padding: 10px 5px;
 		z-index: 16;
-		right: 10%;
+		right: 20%;
 		opacity: 0.9;
-		top: 90%;
+		top: 100%;
 		transform: translateX(0);
 		transition: 0.5s;
 		justify-content: space-around;
@@ -189,8 +201,9 @@
 }
 @media screen and (max-width: 800px) {
 	.card {
+		border: 2px solid #1d3842;
 		width: 80vw;
-		background: none !important;
+		background: #37687c;
 		box-shadow: none !important;
 		padding: 0;
 		margin: 30px auto !important;
@@ -211,32 +224,43 @@
 	.titleContainer {
 		position: relative;
 		width: 100%;
-		height: fit-content !important;
-		flex-direction: row;
+		height: 200px;
+		/* flex-direction: row; */
 		justify-content: space-between;
-		margin-top: 20px;
+		text-align: center;
+		/* margin-top: 20px; */
 		padding: 0 !important;
-		font-size: 13px;
-		background: none !important;
+		font-size: 18px;
+		/* background-color: aqua; */
 	}
 
 	.card:hover .card__Container {
 		opacity: 1;
 		width: 100%;
 	}
+	.colorDiv{
+		width: 100%;
+		height: 100%;
+	}
 
-	.card .card__Container .description,
+	.description{
+		height : 30px;
+	}
+	/* .card .card__Container .description,
 	.titleContainer p,
 	.titleContainer div,
 	.colorDiv {
 		display: none;
-	}
+	} */
+	
 
 	.card:hover .card__Container .description {
-		width: 100px;
+		width: 52%;
 		right: 50%;
 		transform: translateX(50%);
 		top: 80%;
+		opacity: 0.9;
+		top: 98%;
 	}
 	.description_container {
 		width: 60px;
@@ -248,15 +272,22 @@
 		font-size: 20px;
 	}
 	.description i {
-		margin-right: 0;
+		font-size: 30px;
+		transition: 0.3s;
 	}
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
 	.card {
-		width: 90%;
+		width: 80%;
 	}
 	.titleContainer h2 {
 		width: 40%;
 		text-align: justify;
+	}
+	.titleContainer div {
+		width: 65%;
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
 	}
 }

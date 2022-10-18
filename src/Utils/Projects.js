@@ -34,7 +34,7 @@ export const projects = [
   {
     img: "https://raw.githubusercontent.com/tushar07-dev/Fitmeals/main/img.jpeg",
     title: "Fitmeals-Clone",
-    des: "This is the clone of the Fitmeals website. A web application to buy Healthy food and diet plan. This is our team collaboration project at Full Stack-development Bootcamp in Masai School.",
+    des: "A web application to buy Healthy food and diet plan.",
     demo: "",
     live: " https://fitmeals-project.netlify.app/",
     gitHub: "https://github.com/tushar07-dev/Fitmeals",
