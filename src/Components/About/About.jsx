@@ -27,11 +27,13 @@ const About = () => {
         </h1>
         <div className={styles.borderBottom} />
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
-        Hello! My name is Tushar Shelke,I enjoy creating things that live on the internet. My interest in web development started when I joined Masai School to learn full-stack web-Development — teach me a lot about HTML & CSS! <br />
-          <br /> Fast Today, I developed a number of web applications and significant projects. learned a lot about communication, leadership, and teamwork. I've been putting in months of arduous training, and now I'm seeking for a job
+        {/* Hi!  . Since then, I've built numerous web applications, refining my skills in communication, leadership, and teamwork. Now, I'm eager to bring my expertise to a new role as a full-stack web developer. */}
+
+        Hello! I'm Tushar Shelke, a web developer with 1.5 years of experience. My journey began at Masai School, where I mastered Full stack development <br />
+          <br /> Fast Today, Worked at Zeus Learning as an Software Developer role, I developed an CMS system for Europian schools. learned a lot about communication, leadership, and teamwork.
           <span style={{ color: `#00a0a0` }}>
             {" "}
-            as a full-stack web developer.
+            Let's connect and discuss how I can contribute to your team!.
           </span>
           .
         </p>

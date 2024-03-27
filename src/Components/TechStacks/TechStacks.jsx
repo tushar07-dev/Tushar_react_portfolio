@@ -91,16 +91,18 @@ const TechStacks = () => {
 					/>
 					<span>Node</span>
 				</div>
-				{/* <div
+				<div
 					style={{
 						color: `${newTheme.title}`,
 						background: `${newTheme.linkHover}`,
 					}}
 					className={styles.logoWrapper}
 				>
-					<i className='devicon-express-original' />
+					
+					<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" style={{width:'70%'}} alt="Java" />          
+					{/* <i className='devicon-java-plain' /> */}
 					<span>Express</span>
-				</div> */}
+				</div>
 				<div
 					style={{
 						color: `${newTheme.title}`,

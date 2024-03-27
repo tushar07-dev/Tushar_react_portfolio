@@ -18,7 +18,7 @@ export const projects = [
     ],
   },
   {
-    img: "https://camo.githubusercontent.com/06e1a1b190508b3a5fd8e0cfc82d1ba846f15ef5996da7a2edc935268ab6fd10/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a4955617472696469576543522d7a48374678664246772e6a706567",
+    img: "https://camo.githubusercontent.com/34ebdcf585ece86cd4d761c5050437802ba4481765473c5bea31a24a1e98652f/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f312a4955617472696469576543522d7a48374678664246772e6a706567",
     title: "Calendary-Clone",
     des: "A website which schedules meetings professionally and efficiently.",
     demo: "",
@@ -41,7 +41,7 @@ export const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "NodeJS"],
   },
   {
-    img: "https://camo.githubusercontent.com/026c48765cd0c0a230b36f6b5fcf5b027e259b7eaaa6b17c635daea6ffe757f7/68747470733a2f2f696d67732e7365617263682e62726176652e636f6d2f424e522d315041584d773462677238473636684b42764e35497676566e4f6a687a725034736c49334a68672f72733a6669743a3736383a3438303a312f673a63652f6148523063484d364c79396a5a4734792f4c6d4a76645852706358566c4c6d68312f62574a735a5746755a484a70593267752f593239744c3364774c574e76626e526c2f626e5176645842736232466b637938792f4d4445354c7a41304c3031765a47567a2f5a57357a4c5445744e7a5934654451342f4d433571634763",
+    img: "https://raw.githubusercontent.com/iamdebobrota/Modesens-clone/main/Screenshots/CommunityPage.png",
     title: "Modesens-Clone",
     des: "An e-commerce website which offers various fashion clothing’s for all age and gender",
     demo: "",
