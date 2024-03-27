@@ -5,7 +5,7 @@ import SideIcons from "../SideIcons/SideIcons";
 import TechStacks from "../TechStacks/TechStacks";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img1 from "../../assets/my_photo.jpeg"
+import img1 from "../../assets/my_photo_1.jpeg"
 import { Button } from "../Button/Button";
 import About from "../About/About";
 import { projects } from "../../Utils/Projects";
@@ -14,8 +14,8 @@ import { ThemeContext } from "../../ContextProvider/ThemeContext";
 // import Experiences from '../Experiences/Experiences';
 
 import {Calendar} from "../gitHub/Calendar";
-import GitHubCalendar from "react-github-calendar";
-import { Row } from "react-bootstrap";
+// import GitHubCalendar from "react-github-calendar";
+// import { Row } from "react-bootstrap";
 
 const Home = ({ scrollRef }) => {
   const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
