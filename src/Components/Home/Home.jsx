@@ -13,7 +13,7 @@ import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
 import Experiences from "../Experiences/Experiences";
 
-import {Calendar} from "../gitHub/Calendar";
+// import {Calendar} from "../gitHub/Calendar";
 // import GitHubCalendar from "react-github-calendar";
 // import { Row } from "react-bootstrap";
 
@@ -27,7 +27,6 @@ const Home = ({ scrollRef }) => {
   });
 
   const handleOffset = () => {
-    // console.log(';flksdmlf');
     setOffset(window.pageYOffset);
   };
 
@@ -42,7 +41,6 @@ const Home = ({ scrollRef }) => {
 
   const handleButton = () => {};
 
-  console.log(offset);
   const handleShowMoreBtn = () => {
     if (projects.length === projectArray.length) {
       setProjectArray(projects.slice(0, 4));
@@ -125,13 +123,13 @@ const Home = ({ scrollRef }) => {
         <TechStacks />
       </div>
 
-      <div id="gitHubCalendar" className={styles.projects}> 
+      {/* <div id="gitHubCalendar" className={styles.projects}> 
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           Days I Code
         </h1>
         <div className={styles.borderBottom} />
         <Calendar/>
-      </div>
+      </div> */}
 
       <div id="experiences" className={styles.experiences}>
         <Experiences />
