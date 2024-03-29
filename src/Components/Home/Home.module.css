@@ -37,7 +37,7 @@ body::after {
   position: fixed;
 }
 
-.experience {
+.experiences {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -91,8 +91,9 @@ body::after {
 }
 
 .techStacks {
-  padding: 50px 0;
-  margin: 5vh 0;
+  padding: 70px 0;
+  margin: 0vh 0;
+  /* border: 1px solid red; */
 }
 .projects {
   width: fit-content;

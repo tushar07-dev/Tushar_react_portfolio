@@ -1,6 +1,11 @@
-/* .experiences {
+.experiences {
+    /* border: 1px solid red; */
 	width: 70vw;
 	margin: auto;
+    color: #8993b1;
+    width: fit-content;
+	margin: auto;
+	line-height: 25px;
 }
 .heading {
 	width: fit-content;
@@ -61,4 +66,4 @@
 	.container {
 		width: 90%;
 	}
-} */
+}

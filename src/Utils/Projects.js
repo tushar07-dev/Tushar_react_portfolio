@@ -4,7 +4,7 @@ export const projects = [
     title: "myHours-Clone",
     des: "Full stack web application clone to coordinate projects sells and tasks to create project report for clients .",
     demo: "",
-    live: "myhours01.netlify.app/",
+    live: "https://myhours01.netlify.app/",
     gitHub: "https://github.com/tushar07-dev/Clone-of-myHours",
     technologies: [
       "HTML",
@@ -14,7 +14,21 @@ export const projects = [
       "MongoDB",
       "NodeJS",
       "Express",
-
+    ],
+  },
+  {
+    img: "https://raw.githubusercontent.com/tushar07-dev/Tushar_react_portfolio/main/public/projectImages/Screenshot%202024-03-28%20133306.png",
+    title: "Apna Store",
+    des: "An e-commerce website which offers various electronic appliances",
+    demo: "",
+    live: "https://ecomm-tushar.netlify.app/",
+    gitHub: "https://github.com/tushar07-dev/e-com",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux"
     ],
   },
   {
@@ -22,7 +36,7 @@ export const projects = [
     title: "Calendary-Clone",
     des: "A website which schedules meetings professionally and efficiently.",
     demo: "",
-    live: "calendly-react-clone.netlify.app/",
+    live: "https://calendly-react-clone.netlify.app/",
     gitHub: "https://github.com/tushar07-dev/Calendary_clone",
     technologies: [
       "HTML",
@@ -31,28 +45,29 @@ export const projects = [
       "React"
     ],
   },
-  {
-    img: "https://raw.githubusercontent.com/tushar07-dev/Fitmeals/main/img.jpeg",
-    title: "Fitmeals-Clone",
-    des: "A web application to buy Healthy food and diet plan.",
-    demo: "",
-    live: " https://fitmeals-project.netlify.app/",
-    gitHub: "https://github.com/tushar07-dev/Fitmeals",
-    technologies: ["HTML", "CSS", "JavaScript", "NodeJS"],
-  },
-  {
-    img: "https://raw.githubusercontent.com/iamdebobrota/Modesens-clone/main/Screenshots/CommunityPage.png",
-    title: "Modesens-Clone",
-    des: "An e-commerce website which offers various fashion clothing’s for all age and gender",
-    demo: "",
-    live: "https://graceful-starlight-17a7a2.netlify.app//",
-    gitHub: "https://github.com/tushar07-dev/Modesens-Clone",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React",
-      "NodeJS",
-    ],
-  }
+
+  // {
+  //   img: "https://raw.githubusercontent.com/tushar07-dev/Fitmeals/main/img.jpeg",
+  //   title: "Fitmeals-Clone",
+  //   des: "A web application to buy Healthy food and diet plan.",
+  //   demo: "",
+  //   live: " https://fitmeals-project.netlify.app/",
+  //   gitHub: "https://github.com/tushar07-dev/Fitmeals",
+  //   technologies: ["HTML", "CSS", "JavaScript", "NodeJS"],
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/iamdebobrota/Modesens-clone/main/Screenshots/CommunityPage.png",
+  //   title: "Modesens-Clone",
+  //   des: "An e-commerce website which offers various fashion clothing’s for all age and gender",
+  //   demo: "",
+  //   live: "https://graceful-starlight-17a7a2.netlify.app//",
+  //   gitHub: "https://github.com/tushar07-dev/Modesens-Clone",
+  //   technologies: [
+  //     "HTML",
+  //     "CSS",
+  //     "JavaScript",
+  //     "React",
+  //     "NodeJS",
+  //   ],
+  // }
 ];

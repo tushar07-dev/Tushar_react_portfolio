@@ -11,14 +11,14 @@ import About from "../About/About";
 import { projects } from "../../Utils/Projects";
 import Contact from "../Contact/Contact";
 import { ThemeContext } from "../../ContextProvider/ThemeContext";
-// import Experiences from '../Experiences/Experiences';
+import Experiences from "../Experiences/Experiences";
 
 import {Calendar} from "../gitHub/Calendar";
 // import GitHubCalendar from "react-github-calendar";
 // import { Row } from "react-bootstrap";
 
 const Home = ({ scrollRef }) => {
-  const [projectArray, setProjectArray] = useState(projects.slice(0, 4));
+  const [projectArray, setProjectArray] = useState(projects.slice(0, 3));
   const { newTheme } = React.useContext(ThemeContext);
   const [offset, setOffset] = useState(0);
   const [location, setLocation] = useState(0);
@@ -27,6 +27,7 @@ const Home = ({ scrollRef }) => {
   });
 
   const handleOffset = () => {
+    // console.log(';flksdmlf');
     setOffset(window.pageYOffset);
   };
 
@@ -115,7 +116,7 @@ const Home = ({ scrollRef }) => {
         style={{
           background: `${newTheme.highlightBackground}`,
         }}
-        className={styles.experience}
+        className={styles.experiences}
       >
         <About />
       </div>
@@ -124,7 +125,7 @@ const Home = ({ scrollRef }) => {
         <TechStacks />
       </div>
 
-      <div id="projects" className={styles.projects}> 
+      <div id="gitHubCalendar" className={styles.projects}> 
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
           Days I Code
         </h1>
@@ -132,6 +133,9 @@ const Home = ({ scrollRef }) => {
         <Calendar/>
       </div>
 
+      <div id="experiences" className={styles.experiences}>
+        <Experiences />
+      </div>
       {/* project section from here => */}
       <div id="projects" className={styles.projects}> 
         <h1 style={{ color: `${newTheme.title}` }} className={styles.heading}>
