@@ -74,10 +74,10 @@ const Home = ({ scrollRef }) => {
               Tushar Shelke.
             </div>
           </h1>
-          <h1>I am a Full Stack Web Developer.</h1>
+          <h1>Full Stack Web Developer.</h1>
           <div className={styles.btn}>
             <a
-              href="/resume/Tushar_Resume_01.pdf"
+              href="/resume/Tushar_fw14_274.pdf"
               download={true}
               target="_blank"
               rel="noreferrer"

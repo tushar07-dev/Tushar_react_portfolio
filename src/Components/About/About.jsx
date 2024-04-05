@@ -29,8 +29,9 @@ const About = () => {
         <p style={{ color: `${newTheme.para}` }} className={styles.aboutMe}>
         {/* Hi!  . Since then, I've built numerous web applications, refining my skills in communication, leadership, and teamwork. Now, I'm eager to bring my expertise to a new role as a full-stack web developer. */}
 
-        Hello! I'm Tushar Shelke, a web developer with 1.5 years of experiences. My journey began at Masai School, where I mastered Full stack development <br />
-          <br /> Fast Today, Worked at Zeus Learning as an Software Developer role, I developed an CMS system for Europian schools. learned a lot about communication, leadership, and teamwork.
+        Hello! Tushar Shelke here, An experienced MERN Stack Developer with 1.5 years of expertise in building scalable web
+applications. Proficient in MongoDB, Express.js, React.js, and Node.js, committed to
+delivering high-quality solutions through collaborative teamwork.
           <span style={{ color: `#00a0a0` }}>
             {" "}
             Let's connect and discuss how I can contribute to your team!.
